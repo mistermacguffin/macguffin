@@ -205,7 +205,7 @@ export default function Home() {
                         <p>“The story truly felt like it was written just for us. We still talk about some of those sessions.”</p>
                     </div>
                     <div>
-                        <img src='public/Images/UserProfile1.webp'/>
+                        <img src='/macguffin/Images/UserProfile1.webp'/>
                         <p>David Marcie</p>
                     </div>
                 </div>
@@ -232,7 +232,7 @@ export default function Home() {
                         <p>“Everything is taking care of from start to finish—well-paced, well-prepped, and easy to schedule.”</p>
                     </div>
                     <div>
-                        <img src='public/Images/UserProfile2.webp'/>
+                        <img src='/macguffin/Images/UserProfile2.webp'/>
                         <p>Tyra Aydan</p>
                     </div>
                 </div>

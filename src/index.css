@@ -1,0 +1,126 @@
+:root {
+    /* Accent colors */
+    --color-primary: #c3c0ff;
+    --color-on-primary: #1f00a5;
+    --color-secondary: #c3c0ff;
+    --color-on-secondary: #2c2a5f;
+    --color-tertiary: #ffaaf7;
+    --color-on-tertiary: #5a005d;
+    --color-error: #ffb4ab;
+    --color-on-error: #690005;
+    /* Container colors */
+    --color-primary-container: #4f47d2;
+    --color-on-primary-container: #d4d1ff;
+    --color-secondary-container: #454379;
+    --color-on-secondary-container: #b5b2f1;
+    --color-tertiary-container: #982d99;
+    --color-on-tertiary-container: #ffc3f6;
+    --color-error-container: #93000a;
+    --color-on-error-container: #ffdad6;
+    /* Surface */
+    --color-surface-dim: #13131b;
+    --color-surface: #13131b;
+    --color-surface-bright: #393841;
+    --color-inverse-surface: #e4e1ed;
+    --color-inverse-on-surface: #302f38;
+    --color-inverse-primary: #5149d4;
+    --color-surface-container-lowest: #0e0d15;
+    --color-surface-container-low: #1b1b23;
+    --color-surface-container: #1f1f27;
+    --color-surface-container-high: #2a2932;
+    --color-surface-container-highest: #35343d;
+    --color-on-surface: #e4e1ed;
+    --color-on-surface-variant: #c7c4d7;
+    --color-outline: #918fa0;
+    --color-outline-variant: #464554;
+    --color-scrim: #000000;
+    --color-shadow: #000000;
+    /* Font sizes */
+    --font-body-small: 0.833rem;
+    --font-body-medium: 1rem;
+    --font-body-large: 1.200rem;
+    --font-label-small: 0.694rem;
+    --font-label-medium: 0.833rem;
+    --font-label-large: 1rem;
+    --font-title-small: 1.440rem;
+    --font-title-medium: 1.728rem;
+    --font-title-large: 2.074rem;
+    --font-headline-small: 1.728rem;
+    --font-headline-medium: 2.074rem;
+    --font-headline-large: 2.488rem;
+    --font-display-small: 2.074rem;
+    --font-display-medium: 2.488rem;
+    --font-display-large: 2.986rem;
+    /* Line heights */
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+@font-face {
+    font-family: 'Mukta';
+    src: url('src/assets/MuktaRegular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mukta';
+    src: url('src/assets/MuktaBold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    font-size: 20px;
+    font-family: 'Mukta', sans-serif;
+    line-height: 1.1;
+    font-weight: 400;
+    letter-spacing: -0.01em;
+    background: var(--color-surface);
+    color: var(--color-on-surface);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+    min-height: 100vh;
+}
+
+a, span, p, h1, h2, h3, h4, h5, h6, div, li, ul, ol, button {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+    color: inherit;
+    background: transparent;
+    border: 0;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+    border-radius: 0;
+}
